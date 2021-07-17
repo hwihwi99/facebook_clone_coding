@@ -15,39 +15,40 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 function Header() {
     return (
         <div className="header">
-           <div className="header_left">
+           <div className="header__left">
                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1200px-Facebook_f_logo_%282019%29.svg.png" alt="" />
-                <div className="header_input">
+                <div className="header__input">
                     <SearchIcon />
-                    <input type="text" />
+                    <input placeholder="Search Facebook" type="text" />
                 </div>
            </div> 
 
-           <div className="header_middle">
-               <div className="header_option">
-                   <HomeIcon fontSize="large"/>
-               </div>
+           <div className="header__middle">
+                <div className="header__option
+                header__option--active">
+                    <HomeIcon fontSize="large"/>
+                </div>
                
-               <div className="header_option">
+               <div className="header__option">
                    <FlagIcon fontSize="large"/>
                </div>
 
-               <div className="header_option">
+               <div className="header__option">
                    <SubscriptionsOutlinedIcon fontSize="large" />
                </div>
 
-               <div className="header_option">
+               <div className="header__option">
                     <StorefrontOutlinedIcon fontSize="large"/>
                </div>
 
-               <div className="header_option">
+               <div className="header__option">
                     <SupervisedUserCircleIcon fontSize="large"/>
                </div>
 
            </div>
 
-           <div className="header_right">
-               <div className="header_info">
+           <div className="header__right">
+               <div className="header__info">
                     <Avatar />
                     <h4>Hwi Jeong</h4>
                </div>
