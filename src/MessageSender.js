@@ -18,6 +18,7 @@ function MessageSender() {
         setInput("");
         setImageUrl("");
     }
+    
     return (
         <div className="messageSender">
             <div className="messageSender__top">
